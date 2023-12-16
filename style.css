@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: rgb(255, 255, 254);
+}
+table#list_courses {
+    
+    width: 100%;
+
+}
+table#list_courses, th, td {    
+    background-color: rgb(249, 240, 240);
+    border: 1px solid;
+}
+td:nth-child(1) {
+    width: 5%;
+}
+td:nth-child(2) {
+    width: 20%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+td:nth-child(3) {
+    width: 50%;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+td:nth-child(4)  {
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex; */
+}
+#btn_actions {
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-around;
+}
+/* #btn_actions i {
+    color: rgb(141, 94, 161);
+} */
+.item_actions {
+    display: flex;
+    align-items: center;
+}
+
+.icon_update, .update {
+    color: rgb(176, 50, 50);
+}
+.icon_delete, .delete {
+    
+    color: rgb(54, 50, 176);
+}
+.update, .delete {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+
+}
+.item_actions:hover, .update:hover, .delete:hover {
+    font-weight: 600;
+
+}
+table#list_courses, th {
+background-color: rgb(255, 255, 255);
+}
+
+
